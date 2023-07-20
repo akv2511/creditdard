@@ -118,11 +118,11 @@ function Card() {
   };
   return (
     <>
-    <div class="whole">
+    <div className="whole">
       <img className="color-image" src={leftImg} />
       <img className="front-image" src={front} />
       <img className="back-image" src={back} />
-      <div class="front">
+      <div className="front">
       <div id="card-number" className="card-number">0000 0000 0000 0000</div>
       <div id="card-name" className="card-holder">JANE APPLESEED</div>
       <div id="card-expiryMM" className="card-expiryMM">00</div>
