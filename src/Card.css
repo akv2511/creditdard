@@ -8,6 +8,12 @@ div{
  display: inline-block;
  display: table;
 }
+.whole{
+  width: -moz-fit-content;
+  width: fit-content; 
+ display: inline-block;
+ display: table;
+}
 
 .color-image{
   position: absolute;
